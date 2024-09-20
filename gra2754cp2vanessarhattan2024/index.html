@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SVG Animations Using CSS</title>
+<style>
+body{
+	margin:0;
+	padding:0;
+	background-color:#CCC;
+	}
+wrapper{
+	width:100%;
+	max-width:1024px;
+	margin:0 auto;
+	display:block;
+	}
+header{
+	height:150px;
+	background-color:#19B5E3;
+	}
+main{
+	height:768px;
+	background-color:#FFF;
+	padding:4em 0;
+	box-sizing:border-box;
+	text-align:center;
+	}
+footer{
+	height:80px;
+	background-color:#19B5E3;
+	clear:both;
+	}
+	#bubbles{
+		animation: floating 4s linear infinite;
+transform-origin: 70% 77%;
+}
+@keyframes floating{
+0% {transform: rotate(0deg);}
+25% {transform: rotate(1deg);}
+50% {transform: rotate(-1deg);}
+75% {transform: rotate(1deg);}
+100% {transform: rotate(0deg);}
+}
+	#blossem{
+		animation: floating 4s linear infinite;
+transform-origin: 70% 77%;
+}
+@keyframes floating{
+0% {transform: rotate(0deg);}
+25% {transform: rotate(1deg);}
+50% {transform: rotate(-1deg);}
+75% {transform: rotate(1deg);}
+100% {transform: rotate(0deg);}
+}
+	#buttercup{
+		animation: floating 4s linear infinite;
+transform-origin: 70% 77%;
+}
+@keyframes floating{
+0% {transform: rotate(0deg);}
+25% {transform: rotate(1deg);}
+50% {transform: rotate(-1deg);}
+75% {transform: rotate(1deg);}
+100% {transform: rotate(0deg);}
+}
+	}
+	}
+	}
+	
+svg {
+    margin-left: -166px;
+    margin-top: -326px;
+    width: 120%;
+    min-width: 0px;
+}
+</style>
+</head>
+
+<body>
+    <wrapper>
+        <header>
+        </header>
+                
+        <main><?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20.7in" height="13.93in" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1490.13 1003">
+  <g id="background">
+    <image width="400" height="283" transform="translate(124 6) scale(3.42 2.72)" xlink:href="city.webp"/>
+  </g>
+  <g id="bubbles">
+    <path id="blue" d="M484.02,539c102.98,128,86.98,237,86.98,237l-133-1.04v-235.96h46.02Z" fill="aqua" opacity=".65"/>
+    <image id="bubbles-image" width="2048" height="2048" transform="translate(0 80) scale(.4 .42)" xlink:href="Powerpuff-girl-2.png"/>
+  </g>
+  <g id="blossem">
+    <rect id="pink" x="765.79" y="539" width="90.35" height="237" fill="#edbcff" opacity=".8"/>
+    <image id="blossom-image" width="2048" height="2048" transform="translate(333) scale(.46 .49)" xlink:href="Powerpuff-girl-3.png"/>
+  </g>
+  <g id="buttercup">
+    <path id="green" d="M1032.24,539s-87.24,61-96.24,171-6.36,66-6.36,66h133.23l13.78-237h-44.41Z" fill="#7fff86" opacity=".62"/>
+    <image id="buttercup-image" width="2048" height="2048" transform="translate(731 153) scale(.33)" xlink:href="Powerpuff-girl-1.png"/>
+  </g>
+</svg>
+			
+        </main>
+        
+        <footer>© 2024, Vanessa Rhattan
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.
+        </footer>
+    </wrapper>
+</body>
+</html>
