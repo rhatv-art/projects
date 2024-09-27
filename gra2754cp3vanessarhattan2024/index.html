@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*This is the global style sheet (for smartphones)*/
+body {
+  background-color: lightblue;
+}
+wrapper{
+    width: 80%;
+    min-width: 300px;
+    max-width: 2500px;
+    display: block;
+    margin: auto;
+    background-color: beige;
+    text-align: center;
+}
+h1 {
+    color: rgba(0,0,0,1.00);
+    text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+section{
+    background-color: purple;
+    margin-bottom: 10px;
+}
+banner{
+    display: block;
+    background-color: red;
+    margin-bottom: 10px;
+}
+wrapper section img {
+    height: auto;
+    width: 100%;
+}
+wrapper banner img {
+    width: 100%;
+    height: auto;
+}
+/*This is the beginning of the tablet media query*/
+@media (min-width:800px){
+
+body{
+  background-color:orange;
+}
+wrapper{
+  padding-left:10px;
+}
+section{
+  width:48%;
+  display:inline-block;
+  margin-right:4px;
+}
+banner{
+margin-right:10px;
+}
+}
+/*This is the laptop media query*/
+@media (min-width:1600px){
+body{
+  background-color:lightgreen;
+}
+section{
+  width:31%;
+}
+banner{
+margin-right:20px;
+}
+}
+</style>
+</head>
+<body>
+<wrapper>
+<h1>Diy Halloween</h1>
+<p>Hand made halloween decorations</p>
+<banner><img src="halloween-witches.jpg" alt="" width="1000" height="560"></banner>
+<section><img src="halloween-blanket-ghost.jpg" alt="" width="1000" height="560"></section>
+<section><img src="halloween-diy-ghost.jpg" alt="" width="1000" height="560"></section>
+<section><img src="halloween-gravestone.jpg" alt="" width="1000" height="560"></section>
+<section><img src="Halloween-hanging.jpg" alt="" width="1000" height="560"></section>
+<section><img src="halloween-jars.jpg" alt="" width="1000" height="560"></section>
+<section><img src="halloween-spiderwebs.jpg" alt="" width="1000" height="560"></section>
+<footer>© 2024, Vanessa Rhattan
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+</wrapper>
+</body>
+</html>
+
+
