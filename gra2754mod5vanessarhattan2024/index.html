@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>drag and drop game|Vanessa Rhattan 2024</title>
+<h1>Pick an outfit for me today</h1>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<style type="text/css">
+
+wrapper {
+    width: 900px;
+    display: block;
+    margin: auto;
+    background-color: rgba(83,47,47,1.00);
+    color: rgba(255,255,255,1.00);
+}
+wrapper div {
+    width: 223px;
+    height: 533px;
+    border: thin solid black;
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgba(255,134,136,1.00);
+}
+div div img {
+    width: 100%;
+    height: auto;
+}
+section {
+    width: 670px;
+    height: 1600px;
+    background-image: url(No-outfit.png);
+    margin: auto;
+    display: inline-block;
+}
+</style>
+
+	</head>
+
+<body>
+<wrapper>
+  <section id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></section>
+  <div>
+    <div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Outfit1.png" alt="" width="670" height="1600" id="drag1" draggable="true" ondragstart="drag(event)" ></div>
+    <div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Outfit2.png" alt="" width="670" height="1600" id="drag2" draggable="true" ondragstart="drag(event)"></div>
+    <div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Outfit3.png" alt="" width="670" height="1600" id="drag3" draggable="true" ondragstart="drag(event)" ></div>
+  </div>
+	<footer>© 2024, Vanessa Rhattan
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+</wrapper>
+</body>
+</html>
