@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Greenday|Vanessa Rhattan, 2024</title>
+<!-- TemplateEndEditable -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link href="../css.style.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<wrapper>
+  <header>
+    <h1>Green Day</h1>
+  </header>
+  <nav>
+    <ul>
+     <a href="../index.html"><li>Home</li></a>
+     <a href="../news.html"><li>News</li></a>
+     <a href="../store.html"><li>Store</li></a>
+     <a href="../video.html"><li>Vidoes</li></a>
+     <a href="../concerts.html"><li>Concerts</li></a>
+     <a href="../photos.html"><li>Photos</li></a>
+     <a href="../mailings.html"><li>Mailings</li></a>
+     <a href="../merch.html"><li>Merch</li></a>
+    <a href="../blogs.html"> <li>Blogs</li></a>
+    <a href="../pravacy.html"> <li>Privacy</li></a>
+    </ul>
+  </nav>
+  <!-- TemplateBeginEditable name="EditRegion1" -->
+  <main></main>
+  <!-- TemplateEndEditable -->
+<footer><p>© 2024, Vanessa Rhattan. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+</body>
+</html>
