@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Zumies | Vanessa Rhattan 2024</title>
+<style type="text/css">
+body {
+    margin: 0;
+    background-color: #CCCCCC;
+}
+header {
+    height: 100px;
+    background-color: #000000;
+}
+section {
+    width: 50%;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+.photos {
+    position: relative;
+}
+wrapper {
+    margin: auto;
+    width: 1366px;
+    display: block;
+    background-color: #FFFFFF;
+}
+.photos img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+nav {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: #B64A7D;
+    border: thick solid #A03465;
+}
+.description button {
+    width: 50px;
+    margin: 10px;
+    height: 50px;
+    border: thick solid #FFFFFF;
+}
+.description button:hover {
+    border-color: #000000;
+}
+.description .red {
+    background-image: url(red-swatch.jpg);
+}
+.description .purple {
+    background-image: url(purple-swatch.jpg);
+}
+.description .blue {
+    background-image: url(blue-swatch.jpg);
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('red-outfit-back.jpg','blue-outfit-back.jpg','purple-outfit-back.jpg')">
+<img src="zumiez%20logo.png" alt="" width="450" height="112">
+<header></header>
+<wrapper>
+<main>
+  <p>FB County Lavender Velour Tube Top</p>
+	<p>Description
+FB County combines cute and comfortable with the velour-constructed tube top arriving in a noticeable lavender cotton blend for a noticeable look. Offering a secure elastic top hem boasting a centered woven brand label, the sleeveless crop top delivers a monochrome look perfect for layering in sunny weather</p>
+    <section class="photos">
+	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('red-outfit','','red-outfit-back.jpg',1)"><img src="red-outfit-front.jpg" alt="red outfit" width="1060" height="1260" id="red-outfit"></a>
+	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('blue-outfit','','blue-outfit-back.jpg',1)"><img src="blue-outfit-front.jpg" alt="blue outfit" width="1060" height="1260" id="blue-outfit"></a> 
+	  
+	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('purple-outfit','','purple-outfit-back.jpg',1)"><img src="purple-outfit-front.jpg" alt="purple outfit" width="1060" height="1260" id="purple-outfit"></a> </section>
+    <section class="description">
+      <button class="red" onClick="MM_showHideLayers('red-outfit','','show','blue-outfit','','hide','purple-outfit','','hide')"></button>
+      <button class="purple" onClick="MM_showHideLayers('red-outfit','','hide','blue-outfit','','hide','purple-outfit','','show')"></button>
+      <button class="blue" onClick="MM_showHideLayers('red-outfit','','hide','blue-outfit','','show','purple-outfit','','hide')"></button>
+</section>
+</main>
+<nav>Content for New nav Tag Goes Here</nav>
+<footer><p>© 2024, Vanessa Rhattan. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+</body>
+</html>
